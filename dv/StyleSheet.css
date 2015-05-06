@@ -1,0 +1,315 @@
+/*
+gjort av Jarl Lindquist 
+produced by Jarl  Lindquist
+*/
+
+@import url("fonts.css");
+
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*/
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.nav
+{
+	background-color: #666465;
+}
+
+
+/*a
+{
+    font-weight: bold;
+    font-size: 1em;
+    color: #3A5FCD;
+    text-decoration:underline;
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant: normal;
+}
+*/
+
+/*a:hover
+{
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000000;
+    font-style: normal;
+    font-family: Verdana;
+    font-variant: normal;
+    text-decoration: none;
+}
+*/
+/* Classer */
+
+.nav
+{
+
+}
+
+.article 
+{
+    
+}
+.centrera /*istället för containerdiv1 och contentcontainerdiv */
+{
+    width: 600px;
+    height:500px;
+    padding: 0px 0px 0px 0px;
+    margin: 5% auto;
+    background-color: white;
+    clear: none;
+    text-align: center;
+    float: center;
+
+
+}
+
+.top 
+{/*
+height: 195px; ; background-repeat: no-repeat; width: 810px;*/
+}
+.slogans /* istället för textbox */
+{
+
+}
+
+
+.content  /*istället för supportingtext*/
+{
+
+    
+    font-family:ff-din-web-condensed, georgia,  Arial, Helvetica, sans-serif;
+    
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top:10px;
+    overflow: auto;
+
+}
+
+
+.footer 
+{
+margin-top: 50%;
+    
+}
+
+
+/*id */
+/*#test {
+background-repeat: no-repeat; 
+height: 485px; 
+width: 810px;
+}
+*/ /*
+#supportingText
+{
+    height: 406px;
+    width: 438px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+	padding-top:10px;
+	
+}
+
+/*för att centrera i alla vebbläsare*/
+/*är borttagen i html filen (index) 
+ #containerdiv1
+{
+	background-image: url(../images/sidor.jpg);
+	width: 100%;
+	height: 730px;
+	text-align: center;
+
+}
+*//*
+#containercontentdiv
+{
+	width: 810px;
+	text-align: -moz-center; /*för att centrera tabell i alla vebbläsare*/
+/*	padding: 0px 0px 0px 0px;
+	margin: 0px auto;
+	background-color: transparent;
+	clear: none;
+    text-align: center;
+	float: center;
+	
+}*/
+#textbox
+{
+    height: 61px;
+    width: 295px;
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000066;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 15px;
+    font-style: oblique;
+    font-variant: normal;
+	
+}
+#footer
+{
+    text-align: center;
+    padding: 5px;
+    height: 20px;
+    width: 430px;
+
+}
+
+
+/* dessa divarna används inte på index, radochron, omoss, media, lankar, foreningn, aktuellt. */ 
+#left
+{
+    width: 180px;
+    margin: 0px auto;
+    vertical-align: top;
+    text-align: left;
+    clear: none;
+    display: block;
+    position: static;
+    float: left;
+}
+
+#right
+{
+    width: 250px;
+    margin: 0px auto;
+    vertical-align: top;
+    text-align: left;
+    clear: none;
+    display: block;
+    position:  static;
+	
+
+}
+#leftc
+{
+    width: 120px;
+    margin: 0px auto 0px 50px;
+    vertical-align: top;
+    text-align: left;
+    clear: none;
+    display: block;
+    position: static;
+    float: left;
+	
+}
+
+#rightc
+{
+    width: 120px;
+    margin: 0px 50px 0px auto;
+    vertical-align: top;
+    text-align: left;
+    clear: none;
+    display: block;
+    position: static;
+}
+
+#centre
+{
+    vertical-align: top;
+    text-align: center;
+}
+
+
+/*---------------------------------------------------------------------------*
+div.centered /*för att centrera i alla vebbläsare*/
+{
+    text-align: center;
+}
+div.centered table 
+{
+    margin: 0 auto; 
+    text-align: left;
+	
+}
+.nowrap
+{
+	white-space: nowrap;
+}
+td
+{
+    vertical-align: top;
+    text-align: left;
+    padding-left: 20px;
+	border-style: solid;
+}
+.knapp
+{
+    background-image: url(  '../images/Knapp.png' );
+    background-repeat: no-repeat;
+    background-position: left center;
+    vertical-align: bottom;
+	
+}
+.valdsida
+{
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #601517;
+    font-style: normal;
+    font-family: Verdana;
+    font-variant: normal;
+    text-decoration: none;    
+}
+/*
+.style1
+{
+    
+    height: 171px;
+}
+.style2
+{
+    height: 480px;
+}
+.style3
+{
+    height: 480px;
+    width: 273px;
+}
+.style4
+{
+    width: 40px;
+}
+.style6
+{
+    height: 190px;
+}
+*/

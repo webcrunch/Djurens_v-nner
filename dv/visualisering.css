@@ -1,0 +1,346 @@
+/*
+gjort av Jarl Lindquist 
+produced by Jarl  Lindquist
+*/
+
+@import url("fonts.css");
+
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+*/ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+*/
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/*main funtions*/
+body{
+    background-image:url(images/background_nature_leaf.jpg);
+    background-size: 200%;
+    height: 100%;
+    background-repeat: no-repeat; 
+}
+
+
+footer 
+{
+    margin-top: 2%;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+
+    font-family:ff-din-web-condensed;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+nav{
+    background
+    margin:  56%;
+   
+
+}
+
+nav ul li{
+    vertical-align: middle;
+    display: inline-block;
+    overflow:ellipsis;
+}
+/* Classer */
+
+.slogans/* istället för textbox */
+{
+    text-align: right;
+    font-weight:bold;
+}
+
+p img{
+    float: right;
+    height: auto;
+    width: 40%;
+    margin:2ex;
+}
+
+.struktur{ }
+.centrera /*istället för containerdiv1 och contentcontainerdiv */
+{
+    width: 700px;
+    
+    padding: 10px 20px 10px 20px; /*hight,right,bottom,left*/
+    margin: 7% auto;
+    border: black 0.1em solid;
+    clear: none;    
+    float: center;
+    background-color: white;
+    font-family:ff-din-web-condensed;
+
+}
+.content  /*istället för supportingtext*/
+{
+    font-family:ff-din-web-condensed, georgia,  Arial, Helvetica, sans-serif;
+    color: #000000;
+    height:1000px;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top:2%;
+    overflow: auto;
+    background-color: white;
+    margin: 10px 20px 10px 20px;
+    
+}
+
+.content p{
+    padding: 3ex;
+}
+ul #circle li{
+    list-style-type: none;
+}
+.mitt{
+    text-align: center;
+}
+
+.logo{
+
+}
+.top 
+{/*
+height: 195px; ; background-repeat: no-repeat; width: 810px;*/
+}
+
+
+
+
+/*a
+{
+    font-weight: bold;
+    font-size: 1em;
+    color: #3A5FCD;
+    text-decoration:underline;
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant: normal;
+}
+*/
+
+/*a:hover
+{
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000000;
+    font-style: normal;
+    font-family: Verdana;
+    font-variant: normal;
+    text-decoration: none;
+}
+*/
+
+
+    
+
+
+
+
+
+
+/*id */
+#leftc
+{
+    width: 120px;
+    margin: 0px auto 0px 50px;
+    vertical-align: top;
+    text-align: left;
+    clear: none;
+    display: block;
+    position: static;
+    float: left;
+    
+}
+
+#rightc
+{
+    width: 120px;
+    margin: 0px 50px 0px auto;
+    vertical-align: top;
+    text-align: left;
+    clear: none;
+    display: block;
+    position: static;
+}
+
+*/ /*
+#supportingText
+{
+    height: 406px;
+    width: 438px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+	padding-top:10px;
+	
+}
+
+*//*
+*/
+#textbox
+{
+    height: 61px;
+    width: 295px;
+    font-family: 'Times New Roman' , Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000066;
+    text-align: center;
+    vertical-align: text-bottom;
+    padding-top: 15px;
+    font-style: oblique;
+    font-variant: normal;
+	
+}
+
+
+/* dessa divarna används inte på index, radochron, omoss, media, lankar, foreningn, aktuellt. */ 
+#left
+{
+    width: 180px;
+    margin: 0px auto;
+    vertical-align: top;
+    text-align: left;
+    clear: none;
+    display: block;
+    position: static;
+    float: left;
+}
+
+#right
+{
+    width: 250px;
+    margin: 0px auto;
+    vertical-align: top;
+    text-align: left;
+    clear: none;
+    display: block;
+    position:  static;
+	
+
+}
+
+#centre
+{
+    vertical-align: top;
+    text-align: center;
+}
+
+
+/*---------------------------------------------------------------------------*
+div.centered /*för att centrera i alla vebbläsare*/
+{
+    text-align: center;
+}
+div.centered table 
+{
+    margin: 0 auto; 
+    text-align: left;
+	
+}
+.nowrap
+{
+	white-space: nowrap;
+}
+td
+{
+    vertical-align: top;
+    text-align: left;
+    padding-left: 20px;
+	border-style: solid;
+}
+.knapp
+{
+    background-image: url(  '../images/Knapp.png' );
+    background-repeat: no-repeat;
+    background-position: left center;
+    vertical-align: bottom;
+	
+}
+.valdsida
+{
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #601517;
+    font-style: normal;
+    font-family: Verdana;
+    font-variant: normal;
+    text-decoration: none;    
+}
+/*
+.style1
+{
+    
+    height: 171px;
+}
+.style2
+{
+    height: 480px;
+}
+.style3
+{
+    height: 480px;
+    width: 273px;
+}
+.style4
+{
+    width: 40px;
+}
+.style6
+{
+    height: 190px;
+}
+
+
+
+*/
+@media screen and (max-width: 740px){
+
+.centrera{
+	width: 10%;
+}
+
+.content: {
+	width: 10%;
+}
+}
+@media screen and (max-width: 478px) 	{
+body {
+	font-size: 13px;
+}*/
