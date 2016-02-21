@@ -65,10 +65,12 @@ h3{
 nav{
     background
     margin:  56%;
-   
+
 
 }
-
+nav form{
+    margin-top: 5px;
+}
 nav ul li{
     vertical-align: middle;
     display: inline-block;
@@ -96,7 +98,7 @@ p img{
     
     padding: 10px 20px 10px 20px; /*hight,right,bottom,left*/
     margin: 7% auto;
-    border: black 0.1em solid;
+    border: black 0.2em solid;
     clear: none;    
     float: center;
     background-color: white;
@@ -114,6 +116,7 @@ p img{
     overflow: auto;
     background-color: white;
     margin: 10px 20px 10px 20px;
+
     
 }
 
