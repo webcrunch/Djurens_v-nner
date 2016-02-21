@@ -1,3 +1,4 @@
+
 var AktuellData = [
 {
 	"Date":"2013-03-20",
@@ -56,6 +57,16 @@ var AktuellData = [
 }
 ]
 
+$( document ).ready(function() {
 
 
+var source   = $("#insertData").html();
 
+var template = Handlebars.compile(source);
+var context = {data:  AktuellData};
+var html    = template(context);
+var second  = template(html);
+contentData.innerHTML = html;
+
+
+});

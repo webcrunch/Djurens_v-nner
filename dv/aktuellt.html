@@ -10,15 +10,7 @@
     <script src="slogans.js"></script>
     <script src="script.js"></script>
     <link href="visualisering.css" rel="stylesheet" /> 
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -59,92 +51,19 @@
     </nav>
     <hr />
     <div class="content">
-        <h3>2013-03-20</h3>
-                        <h3>Kallelse till årsmöte.</h3>
-                 
-                        <h4>Vi kommer att hålla årsmöte Klockarbol i Stigtomta.<br />
-                        
-                        Onsdag 20 mars kl 18.30.<br />
-                        Varmt välkomnmen till detta årsmöte.<br /><br />
-                        Styrelsen.<br />
+      <div id="contentData">
+          <script id="insertData" type="text/x-handlebars-template">
+         {{#each data}}
+            <h2>{{Date}}</h2>
+            <p>{{Title}}
+            {{/each}}
+ 
+                
+                
+        
+    </script>
 
-                      </h4> 
-                        
-                        
-                        <hr />
-                        <br />
-                        
-                        <h3>2012-03-22</h3>
-                        <h3>Kallelse till årsmöte.</h3>
-                 
-                        <h4>Vi kommer att hålla årsmöte i Klockarbol Stigtomta.<br />
-                        Det bjuds på kaffe och hembakat bröd.<br />
-                        Lotter kommer att säljas.<br />
-                        Varmt välkomna till detta årsmöte.<br /><br />
-                        Torsdag 22 mars kl 18.30.
-                        
-                         </h4> 
-                        
-                        
-                        <hr />
-            
-                        <br />
-                        
-                        <h3>2011-05-24</h3>
-                        <h3>Prata med djur</h3>
-                 
-                        <h4>Välkommen till en innehållsrik kväll<br />
-                        då djurkommunikatör Siv Silvo berättar om sin<br />
-                        verksamhet, med orden lyhördhet respekt och<br />
-                        samverkan.<br /><br />
-                        Tisdag 24 maj kl 19.00 på Stigtomtagården.
-                        <br />
-                        Entréavgift 20 kr.<br /><br /></h4> 
-                        
-                        
-                        <hr />
-                        
-                        <h3>2011-03-23</h3>
-                        <h4>Kallelse till Årsmöte</h4>
-                 
-                        <h4>Bäste djurvän!<br />
-                        Vi kommer att hålla årsmöte i Klockarbol Stigtomta</h4>
-                        Onsdag 23 mars kl 18.30 <br />
-                        Det bjuds på kaffe och hembakat <br />
-                        Lotter kommer att säljas.<br /><br />
-                        Varmt välkommen till detta årsmöte.<br />
-                        Styrelsen<br /><br /> 
-
-                        <hr />                      
-                        
-                    
-                        
-                        <h3>2010-03-25</h3>
-                        <h4>Kallelse till Årsmöte</h4>
-                 
-                        <h4>Bäste djurvän!<br />
-                        Vi kommer att hålla årsmöte i Klockarbol Stigtomta</h4>
-                        Torsdag 25 mars kl 18.00<br />
-                        Det bjuds på kaffe och kaka. <br />
-                        Årsmötet börjar med ett föredrag av länsveterinär Per Jonsson om djurskyddet.<br />
-                        Varmt välkommen till detta årsmöte.<br />
-                        Styrelsen<br /><br /> 
-
-                        <hr />    
-
-
-                        <h3>2009-10-06</h3>
-                        <h4>Välkommen till en informationskväll om hästar.</h4>
-                        Föredragshållare vet. Karin Ståhl kommer att prata om hästars behov, av att ha ett bra liv.<br />
-                        Stigtomtagården Nyköping tisdag den 6 oktober kl 18.00.<br /><br />
-
-                        
-                        <hr />          
-                        <br />    
-                        Vi vill informera om att man ABSOLUT inte ska skaffa sommarkatt.<br />
-                        Övergivna sommarkatter fryser eller svälter ihjäl och går ett plågsamt öde till mötes.<br />
-                        En katt är helt beroende av människan för att överleva.<br />
-                        Tänk på att om du skaffar en katt ska den vara älskad och omskött i hela sitt liv<br /><br />
+      </div>
                             
     </div>
     <hr/>
