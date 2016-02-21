@@ -105,11 +105,17 @@ p img{
     font-family:ff-din-web-condensed;
 
 }
+
+#TextLayout{
+    border:1px solid #9B9B9B;
+    margin: 10px;
+    padding-top: 5px;
+}
 .content  /*istället för supportingtext*/
 {
     font-family:ff-din-web-condensed, georgia,  Arial, Helvetica, sans-serif;
     color: #000000;
-    height:1000px;
+    height:auto;
     font-size: 1.1em;
     font-weight: bold;
     padding-top:2%;
@@ -120,6 +126,11 @@ p img{
     
 }
 
+
+.content h2,h3{
+     text-align: center;
+    margin-bottom: 3%;
+}
 .content p{
     padding: 3ex;
 }

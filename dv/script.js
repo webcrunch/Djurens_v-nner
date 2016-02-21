@@ -55,7 +55,16 @@ var AktuellData = [
 {
 	"Content" : "Vi vill informera om att man ABSOLUT inte ska skaffa sommarkatt. Övergivna sommarkatter fryser eller svälter ihjäl och går ett plågsamt öde till mötes. En katt är helt beroende av människan för att överleva. Tänk på att om du skaffar en katt ska den vara älskad och omskött i hela sitt liv "
 }
-]
+];
+
+var IndexContent = [{
+	"Title": "hej",
+	"Content" : "skogsbär"
+}
+
+];
+
+
 
 $( document ).ready(function() {
 
