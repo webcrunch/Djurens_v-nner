@@ -64,6 +64,13 @@ var IndexContent = [{
 
 ];
 
+var IndexContent = [{
+	"Title": "hej",
+	"Content" : "skogsbär"
+}
+
+];
+
 
 
 $( document ).ready(function() {
